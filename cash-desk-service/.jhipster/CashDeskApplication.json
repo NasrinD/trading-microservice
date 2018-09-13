@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "cashDesk",
+            "otherEntityName": "cashDesk",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "cashDeskApplication"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20180913143623",
+    "entityTableName": "cash_desk_application",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "cashdesk"
+}
