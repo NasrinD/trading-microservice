@@ -1,0 +1,26 @@
+
+{
+    "storeApp": {
+        "cashBoxController" : {
+            "home": {
+                "title": "Cash Box Controllers",
+                "createLabel": "Create a new Cash Box Controller",
+                "createOrEditLabel": "Create or edit a Cash Box Controller"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Cash Box Controller {{ id }}?"
+            },
+            "detail": {
+                "title": "Cash Box Controller"
+            },
+            "cashBox": "Cash Box"
+        }
+    },
+    "cashdeskApp": {
+        "cashBoxController" : {
+            "created": "A new Cash Box Controller is created with identifier {{ param }}",
+            "updated": "A Cash Box Controller is updated with identifier {{ param }}",
+            "deleted": "A Cash Box Controller is deleted with identifier {{ param }}"
+        }
+    }
+}

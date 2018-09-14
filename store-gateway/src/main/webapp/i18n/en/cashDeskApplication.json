@@ -1,0 +1,26 @@
+
+{
+    "storeApp": {
+        "cashDeskApplication" : {
+            "home": {
+                "title": "Cash Desk Applications",
+                "createLabel": "Create a new Cash Desk Application",
+                "createOrEditLabel": "Create or edit a Cash Desk Application"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Cash Desk Application {{ id }}?"
+            },
+            "detail": {
+                "title": "Cash Desk Application"
+            },
+            "cashDesk": "Cash Desk"
+        }
+    },
+    "cashdeskApp": {
+        "cashDeskApplication" : {
+            "created": "A new Cash Desk Application is created with identifier {{ param }}",
+            "updated": "A Cash Desk Application is updated with identifier {{ param }}",
+            "deleted": "A Cash Desk Application is deleted with identifier {{ param }}"
+        }
+    }
+}

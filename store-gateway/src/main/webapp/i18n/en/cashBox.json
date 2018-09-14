@@ -1,0 +1,29 @@
+
+{
+    "storeApp": {
+        "cashBox" : {
+            "home": {
+                "title": "Cash Boxes",
+                "createLabel": "Create a new Cash Box",
+                "createOrEditLabel": "Create or edit a Cash Box"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Cash Box {{ id }}?"
+            },
+            "detail": {
+                "title": "Cash Box"
+            },
+            "model": "Model",
+            "controller": "Controller",
+            "receipt": "Receipt",
+            "cashDesk": "Cash Desk"
+        }
+    },
+    "cashdeskApp": {
+        "cashBox" : {
+            "created": "A new Cash Box is created with identifier {{ param }}",
+            "updated": "A Cash Box is updated with identifier {{ param }}",
+            "deleted": "A Cash Box is deleted with identifier {{ param }}"
+        }
+    }
+}

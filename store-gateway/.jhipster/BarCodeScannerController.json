@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "barCodeScanner",
+            "otherEntityName": "barCodeScanner",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "controller"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20180914130756",
+    "entityTableName": "bar_code_scanner_controller",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "cashdesk"
+}
