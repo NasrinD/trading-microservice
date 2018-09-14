@@ -1,0 +1,11 @@
+version: '2'
+services:
+    inventory-postgresql:
+        image: postgres:9.6.5
+        # volumes:
+        #     - ~/volumes/jhipster/inventory/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=inventory
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

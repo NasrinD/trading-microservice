@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "customers",
+            "otherEntityName": "customer",
+            "otherEntityRelationshipName": "bank"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "debits",
+            "otherEntityName": "debit",
+            "otherEntityRelationshipName": "bank"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180914134251",
+    "entityTableName": "bank",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "customer"
+}
