@@ -14,6 +14,12 @@ import { StoreCardReaderModule } from './card-reader/card-reader.module';
 import { StoreCardReaderControllerModule } from './card-reader-controller/card-reader-controller.module';
 import { StoreReceiptModule } from './receipt/receipt.module';
 import { StoreReceiptItemModule } from './receipt-item/receipt-item.module';
+import { StoreBankModule } from './bank/bank.module';
+import { StoreCustomerModule } from './customer/customer.module';
+import { StoreDebitModule } from './debit/debit.module';
+import { StoreInventoryModule } from './inventory/inventory.module';
+import { StoreStockItemModule } from './stock-item/stock-item.module';
+import { StoreProductModule } from './product/product.module';
 /* jhipster-needle-add-entity-module-import - JHipster will add entity modules imports here */
 
 @NgModule({
@@ -32,6 +38,12 @@ import { StoreReceiptItemModule } from './receipt-item/receipt-item.module';
         StoreCardReaderControllerModule,
         StoreReceiptModule,
         StoreReceiptItemModule,
+        StoreBankModule,
+        StoreCustomerModule,
+        StoreDebitModule,
+        StoreInventoryModule,
+        StoreStockItemModule,
+        StoreProductModule,
         /* jhipster-needle-add-entity-module - JHipster will add entity modules here */
     ],
     declarations: [],

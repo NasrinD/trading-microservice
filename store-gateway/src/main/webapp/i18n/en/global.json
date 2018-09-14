@@ -21,6 +21,12 @@
                 "cardReaderController": "Card Reader Controller",
                 "receipt": "Receipt",
                 "receiptItem": "Receipt Item",
+                "bank": "Bank",
+                "customer": "Customer",
+                "debit": "Debit",
+                "inventory": "Inventory",
+                "stockItem": "Stock Item",
+                "product": "Product",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
