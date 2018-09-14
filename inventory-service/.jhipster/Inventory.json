@@ -1,0 +1,19 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "stockItems",
+            "otherEntityName": "stockItem",
+            "otherEntityRelationshipName": "inventory"
+        }
+    ],
+    "fields": [],
+    "changelogDate": "20180914135745",
+    "entityTableName": "inventory",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "inventory"
+}
